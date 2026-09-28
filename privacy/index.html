@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — External Brain</title>
+  <style>
+    body { max-width: 40rem; margin: 3rem auto; padding: 0 1.25rem; font: 16px/1.6 system-ui, sans-serif; color: #222; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.8rem; }
+    footer { margin-top: 3rem; color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy — External Brain</h1>
+  <p><em>Last updated: 2026-09-28</em></p>
+
+  <p>
+    External Brain is a private, single-user personal assistant used only by its
+    owner. This policy describes how it handles data.
+  </p>
+
+  <h2>Data accessed</h2>
+  <p>
+    With the owner's explicit consent, the application accesses the owner's own
+    Google account data through the Gmail API and the Google Tasks API:
+    email messages and metadata, and task lists. No other Google data is
+    accessed, and no data belonging to anyone other than the owner is accessed.
+  </p>
+
+  <h2>How data is used</h2>
+  <p>
+    Google data is used solely to answer the owner's own requests — for example,
+    listing unread email, reading a message, sending a reply the owner dictated,
+    or listing and updating tasks. Data is not sold, shared, transferred or
+    disclosed to any third party, and is not used for advertising or to train
+    machine-learning models.
+  </p>
+
+  <h2>Storage and security</h2>
+  <p>
+    OAuth credentials and tokens are stored encrypted in AWS Secrets Manager
+    (eu-central-1). Content retrieved from Google is processed in the owner's
+    private AWS account and, where cached, is stored in encrypted private
+    storage. Nothing is made publicly accessible.
+  </p>
+
+  <h2>Retention</h2>
+  <p>
+    Email and task content is fetched on demand. Transcripts and assistant
+    answers generated from voice requests are kept in the owner's private
+    knowledge base for the owner's own reference. Google data can be deleted at
+    any time by the owner.
+  </p>
+
+  <h2>Revoking access</h2>
+  <p>
+    The owner can revoke this application's access to his Google account at any
+    time at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    <a href="mailto:mucha.vaclav@gmail.com">mucha.vaclav@gmail.com</a>
+  </p>
+
+  <footer>
+    <a href="/">Home</a>
+  </footer>
+</body>
+</html>
